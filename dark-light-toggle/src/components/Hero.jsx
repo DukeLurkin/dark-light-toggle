@@ -45,6 +45,13 @@ const Hero = () => {
                 <span>Documentation</span>
               </button>
             </div>
+            <div className="flex flex-col sm:flex-row gap-5 sm:items-center pt-6 lg:pt-7 border-t border-neutral-300 dark:border-neutral-800">
+              <div className="flex -space-x-2">
+                <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 dark:border-neutral-100/70 border-neutral-900/50 object-cover" />
+                <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 dark:border-neutral-100/70 border-neutral-900/50 object-cover" />
+                <img src="https://randomuser.me/api/portraits/men/7.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 dark:border-neutral-100/70 border-neutral-900/50 object-cover" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
