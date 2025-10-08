@@ -47,9 +47,13 @@ const Hero = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-5 sm:items-center pt-6 lg:pt-7 border-t border-neutral-300 dark:border-neutral-800">
               <div className="flex -space-x-2">
-                <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 dark:border-neutral-100/70 border-neutral-900/50 object-cover" />
-                <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 dark:border-neutral-100/70 border-neutral-900/50 object-cover" />
-                <img src="https://randomuser.me/api/portraits/men/7.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 dark:border-neutral-100/70 border-neutral-900/50 object-cover" />
+                <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 dark:border-neutral-100/40 border-neutral-900/30 object-cover" />
+                <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 dark:border-neutral-100/40 border-neutral-900/30 object-cover" />
+                <img src="https://randomuser.me/api/portraits/men/7.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 dark:border-neutral-100/40 border-neutral-900/30 object-cover" 
+                />
+                <span className="flex items-center justify-center w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 bg-neutral-900 dark:bg-amber-500 text-white dark:text-neutral-900 text-xs font-medium">
+                  +5k
+                </span>
               </div>
             </div>
           </div>
